@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduAll - Blogs Dashboard</title>
+  <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/dataTables.dataTables.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="side-overlay"></div>
+  <div class="dashbord bg-main-25">
+    <div class="d-flex">
+      <div class="dashboard-sidebar px-20 py-24 max-w-288-px bg-white w-100 border-end border-neutral-40 position-relative">
+        <a href="admin-dashbord.html"><img src="assets/images/logo/logo.png" alt=""></a>
+        <span class="w-100 bg-neutral-40 mb-24 mt-24 h-1"></span>
+        <ul>
+          <li class="mb-8"><a href="admin-dashbord.html" class="fw-medium d-flex align-items-center text-14 gap-8 text-neutral-500 hover-bg-main-600 px-24 py-10 hover-text-white rounded-12">Dashboard</a></li>
+          <li class="mb-8"><a href="dashbord-students.html" class="fw-medium d-flex align-items-center text-14 gap-8 text-neutral-500 hover-bg-main-600 px-24 py-10 hover-text-white rounded-12">Students</a></li>
+          <li class="mb-8"><a href="dashbord-tutors.html" class="fw-medium d-flex align-items-center text-14 gap-8 text-neutral-500 hover-bg-main-600 px-24 py-10 hover-text-white rounded-12">Tutors</a></li>
+          <li class="mb-8"><a href="dashbord-blogs.html" class="fw-medium d-flex align-items-center text-14 gap-8 text-neutral-500 hover-bg-main-600 px-24 py-10 hover-text-white rounded-12">Blogs</a></li>
+          <li class="mb-8"><a href="dashbord-events.html" class="fw-medium d-flex align-items-center text-14 gap-8 text-neutral-500 hover-bg-main-600 px-24 py-10 hover-text-white rounded-12">Events</a></li>
+        </ul>
+      </div>
+      <div class="dashbord-body my-profile flex-grow-1">
+        <div class="px-24 py-16 bg-neutral-10 border-bottom border-neutral-40 w-100">
+          <div class="d-flex align-items-center justify-content-between gap-24 w-100">
+            <div class="max-w-357-px position-relative d-sm-block d-none">
+              <input type="text" placeholder="Search" class="ps-16 pe-36 py-9 border border-neutral-40 rounded-pill focus-visible-outline focus-border-main-600 text-14 line-height-1 w-100">
+            </div>
+            <a href="#" class="px-20 py-10 border-main-600 border rounded-pill text-14 text-main-600 hover-bg-main-600 hover-text-white">Create a New Course</a>
+          </div>
+        </div>
+        <div class="px-24 py-24">
+          <div class="px-24 py-24 bg-white rounded-10">
+            <div class="d-flex align-items-center justify-content-between mb-24">
+              <h6 class="mb-0 fw-medium">Blogs</h6>
+            </div>
+            <div class="overflow-y-auto">
+              <table id="example-five" class="display min-w-max w-100">
+                <thead>
+                  <tr class="bg-main-25 border-bottom border-neutral-30">
+                    <th class="text-12 fw-medium text-neutral-500 py-16 px-20">Blog</th>
+                    <th class="text-12 fw-medium text-neutral-500 py-16 px-20">Author</th>
+                    <th class="text-12 fw-medium text-neutral-500 py-16 px-20">Date</th>
+                    <th class="text-12 fw-medium text-neutral-500 py-16 px-20">Action</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/boostrap.bundle.min.js"></script>
+  <script src="assets/js/dataTables.min.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
